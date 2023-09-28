@@ -1,0 +1,47 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  padding: 3%;
+  padding-bottom: 2%;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+}
+
+.login {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #007aff;
+  border: none;
+  border-radius: 2px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon {
+  border: 1px solid black;
+  border-right: none;
+  border-radius: 5px 0px 0px 5px;
+  padding: 7px;
+  background: #e8ecef;
+  width: 21.5px;
+}
+.credential {
+  border: 1px solid black;
+  border-left: none;
+  border-radius: 0px 5px 5px 0px;
+  /* flex: 1; */
+  padding: 10px;
+}

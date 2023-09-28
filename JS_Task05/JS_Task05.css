@@ -1,0 +1,11 @@
+.required-text {
+  padding-left: 10px;
+  color: red;
+}
+
+textarea,
+input {
+  border: solid black 1px;
+  border-radius: 3px;
+  padding: 2%;
+}

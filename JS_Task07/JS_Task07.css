@@ -1,0 +1,11 @@
+#image {
+  width: 300px;
+  position: fixed;
+}
+
+#start {
+  margin-top: 200px;
+}
+#stop {
+  margin-top: 200px;
+}

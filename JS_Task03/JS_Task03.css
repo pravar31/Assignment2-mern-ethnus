@@ -1,0 +1,11 @@
+center {
+  margin: 10%;
+  padding: 20px;
+  border: solid 1px black;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+#button {
+  margin: 0.5%;
+}

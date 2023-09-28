@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Task 5</title>
+    <script src="./js_task08.js"></script>
+  </head>
+  <body>
+    <center
+      style="
+        background: radial-gradient(rgb(255, 252, 215), rgb(206, 134, 180));
+        margin-left: 400px;
+        margin-right: 400px;
+      "
+    >
+      <h2 style="color: blue">Registration form</h2>
+      <form action="">
+        <table>
+          <tr>
+            <td><label for="firstname">First Name</label></td>
+            <td><input type="text" name="firstname" /></td>
+          </tr>
+          <tr>
+            <td><label for="lastname">Last Name</label></td>
+            <td><input type="text" name="lastname" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" name="email" /></td>
+          </tr>
+          <tr>
+            <td><label for="password">Password</label></td>
+            <td><input type="password" name="password" id="password" /></td>
+            <td class="invalid" id="invpswd"></td>
+          </tr>
+          <tr>
+            <td><label for="repassword">Re-enter Password</label></td>
+            <td><input type="password" name="repassword" id="repassword" /></td>
+            <td class="invalid" id="invrepswd"></td>
+          </tr>
+          <tr>
+            <td rowspan="2"><label for="gender">Gender</label></td>
+            <td><input type="radio" name="gender" />Male</td>
+          </tr>
+          <tr>
+            <td><input type="radio" name="gender" />Female</td>
+          </tr>
+          <tr>
+            <td><label for="age">Age</label></td>
+            <td><input type="number" name="age" /></td>
+          </tr>
+          <tr>
+            <td><label for="ph">Phone Number</label></td>
+            <td><input type="tel" name="ph" id="ph" /></td>
+            <td class="invalid" id=""></td>
+          </tr>
+          <tr>
+            <td><label for="address">Address</label></td>
+            <td><textarea name="address" cols="20" rows="5"></textarea></td>
+          </tr>
+          <tr>
+            <td><label for="">State</label></td>
+            <td><input type="text" name="" /></td>
+          </tr>
+          <tr>
+            <td><label for="country">Country</label></td>
+            <td>
+              <select name="country">
+                <option value="">India</option>
+                <option value="">Japan</option>
+                <option value="">China</option>
+                <option value="">United States of Amemrica</option>
+                <option value="">United Kingdom</option>
+                <option value="">Sri Lanka</option>
+                <option value="">Cambodia</option>
+                <option value="">Vietnam</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Languages Known</label></td>
+            <td>
+              <input type="checkbox" name="english" />
+              <label for="english">English</label>
+              <input type="checkbox" name="kannada" />
+              <label for="kannada">Kannada</label>
+              <input type="checkbox" name="hindi" />
+              <label for="hindi">Hindi</label>
+              <input type="checkbox" name="telugu" />
+              <label for="telugu">Telugu</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="checkbox" name="tandc" />
+              <label for="tandc">Hereby I declate that all the given details are true</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="right">Login to <a href="www.ethnus.com">Ethnus</a> website</td>
+          </tr>
+        </table>
+        <input
+          type="submit"
+          value="Register"
+          onclick="verify()"
+          style="margin-bottom: 10px; border-radius: 10px; background-color: red; color: white"
+        />
+      </form>
+    </center>
+  </body>
+</html>
